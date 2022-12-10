@@ -1,0 +1,18 @@
+*.class
+# Idea
+*.ipr
+*.iml
+*.iws
+.idea/
+
+# Maven
+target/
+
+*.jar
+*.war
+*.zip
+*.tar
+*.tar.gz
+*.pid
+*.orig
+temp/

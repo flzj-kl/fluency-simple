@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>top.flzjkl.fluency.simple</groupId>
+    <artifactId>fluency-simple-all</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0-SNAPSHOT</version>
+
+    <modules>
+        <module>fluency-simple</module>
+        <module>fluency-simple-api</module>
+        <module>fluency-simple-server</module>
+        <module>fluency-simple-client</module>
+        <module>fluency-simple-jmeter</module>
+    </modules>
+
+    <properties>
+        <maven.compiler.source>8</maven.compiler.source>
+        <maven.compiler.target>8</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <spring.version>5.2.7.RELEASE</spring.version>
+        <slf4j.version>1.7.25</slf4j.version>
+        <guava.version>30.1.1-jre</guava.version>
+        <netty.version>4.1.42.Final</netty.version>
+        <jedis.version>3.2.0</jedis.version>
+        <kryo.version>4.0.2</kryo.version>
+        <protostuff.version>1.7.2</protostuff.version>
+        <hessian.version>4.0.65</hessian.version>
+    </properties>
+
+    <dependencies>
+        <!-- lombok -->
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.8</version>
+            <scope>provided</scope>
+        </dependency>
+    </dependencies>
+</project>

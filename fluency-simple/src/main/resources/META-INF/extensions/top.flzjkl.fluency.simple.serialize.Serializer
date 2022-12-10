@@ -1,0 +1,3 @@
+kyro=top.flzjkl.fluency.simple.serialize.kyro.KryoSerializer
+protostuff=top.flzjkl.fluency.simple.serialize.protostuff.ProtostuffSerializer
+hessian=top.flzjkl.fluency.simple.serialize.hessian.HessianSerializer
