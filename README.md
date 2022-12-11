@@ -15,7 +15,8 @@
 
 ## 单实例压测结果
 TPS还是可以到1300+滴
-![单实例压测结果](D:\Live\ps\image.png)
+![image](https://user-images.githubusercontent.com/96417877/206880148-63c7485d-9a63-441e-aa68-0e0f6246805e.png)
+
 
 
 ## 未来可期
